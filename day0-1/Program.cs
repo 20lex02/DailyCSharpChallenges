@@ -2,11 +2,11 @@
 
 public static class Program {
     public static void Main(string[] args) {
-        Console.WriteLine(string.Join(",", GetCapsIndexes("eDaBiT")));
-        Console.WriteLine(string.Join(",", GetCapsIndexes("eQuINoX")));
-        Console.WriteLine(string.Join(",", GetCapsIndexes("determine")));
-        Console.WriteLine(string.Join(",", GetCapsIndexes("STRIKE")));
-        Console.WriteLine(string.Join(",", GetCapsIndexes("sUn")));
+        WriteArray(GetCapsIndexes("eDaBiT"));
+        WriteArray(GetCapsIndexes("eQuINoX"));
+        WriteArray(GetCapsIndexes("determine"));
+        WriteArray(GetCapsIndexes("STRIKE"));
+       WriteArray(GetCapsIndexes("sUn"));
     }
 
     public static IEnumerable<int> GetCapsIndexes(string stringValue) {
@@ -16,5 +16,8 @@ public static class Program {
                 yield return i;
             }
         }
+    }
+    public static void WriteArray(IEnumerable<int> val) {
+        Console.WriteLine("[" + string.Join(",", val) + "]");
     }
 }

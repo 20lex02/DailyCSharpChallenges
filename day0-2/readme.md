@@ -4,3 +4,5 @@ Create a function that finds the word `"bomb"` within a given string (not cave s
 * `FindBomb("There is a bomb.")` -> `"Duck!!!"`
 * `FindBomb("Hey, did you think there is a bomb?")` -> `"Duck!!!"`
 * `FindBomb("This goes boom!!!")` -> `"Dude chill, there is no bomb."`
+#
+Done [X]
