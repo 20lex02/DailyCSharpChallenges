@@ -24,4 +24,3 @@ The maximum time to complete the interview includes a buffer time of 20 minutes.
 (Did not complete all questions)
 #
 Done [X]
-Bonus: Solve using only array methods [X]
