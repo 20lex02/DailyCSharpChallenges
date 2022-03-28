@@ -2,7 +2,7 @@
 Sudoku is a game in which you have to fill out a 9 x 9 grid of numbers in such a way that every column, row and 3 x 3 squares contains the number 1 through 9 only once.  
 \
 Create a function that takes in parameter a 2d nullable integer array (`int?[,]`) and checks wether or not it is valid. In order to be valid, all integers must not be null, and all rows, columns and quadrons (3x3 squares) must have all numbers from 1 to 9, without repetition.
-## Examples
+### Examples
 Given the following 2d array:
 ```csharp
 var sudokuGridValid = new int?[9,9] 
@@ -37,6 +37,7 @@ var sudokuGridInvalid1 = new int?[9,9]
     {8,1,3,  2,2,6,  7,4,5},
     {2,7,4,  3,5,1,  6,9,8}
 };
+
 int? o = null;
 var sudokuGridInvali2 = new int?[9,9] 
 {
