@@ -64,9 +64,10 @@ public static class Program
             {2,7,4,  3,5,1,  6,9,8}
         };
 
-        Console.WriteLine(CheckSudoku(sudokuGridValid));
-        Console.WriteLine(CheckSudoku(sudokuGridInvalid2));
-        Console.WriteLine(CheckSudoku(sudokuGridInvalid3));
+        Console.WriteLine(CheckSudoku(sudokuGridValid)); // true
+        Console.WriteLine(CheckSudoku(sudokuGridInvalid1)); // false
+        Console.WriteLine(CheckSudoku(sudokuGridInvalid2)); // false
+        Console.WriteLine(CheckSudoku(sudokuGridInvalid3)); // false
     }
 
     public static bool CheckSudoku(int?[,] sudokuGrid) {
