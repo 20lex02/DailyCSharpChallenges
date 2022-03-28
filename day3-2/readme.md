@@ -1,4 +1,4 @@
-## Day 3-2: Sudoku checker
+## Day 3-2: Sudoku checker (Very hard)
 Sudoku is a game in which you have to fill out a 9 x 9 grid of numbers in such a way that every column, row and 3 x 3 squares contains the number 1 through 9 only once.  
 \
 Create a function that takes in parameter a 2d nullable integer array (`int?[,]`) and checks wether or not it is valid. In order to be valid, all integers must not be null, and all rows, columns and quadrons (3x3 squares) must have all numbers from 1 to 9, without repetition.
