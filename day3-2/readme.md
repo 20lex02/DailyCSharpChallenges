@@ -72,4 +72,4 @@ The function should return `false`.
 ### Notes
 * You can assume the passed array will always be 9*9
 #
-Done [ ]
+Done [X]
