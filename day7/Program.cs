@@ -37,6 +37,6 @@ public static class Program {
     }
 
     public static void WriteArray<T> (T[] values) {
-        Console.WriteLine("[" + string.Join(",", values.Select(value => value.ToString())) + "]");
+        Console.WriteLine("[" + string.Join(",", values.Select(value => value?.ToString())) + "]");
     }
 }
